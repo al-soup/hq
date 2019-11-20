@@ -16,11 +16,12 @@ module.exports = {
      * Docs: https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
      */
     "@typescript-eslint/no-var-requires": 0, // Allow require statements
+    "@typescript-eslint/no-explicit-any": 0, // Allow explicit `any` tpye
 
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
     "indent": [
         "error",
-        4
+        2
     ],
     "linebreak-style": [
         "error",

@@ -4,6 +4,8 @@
 /tmp
 /out-tsc
 
+dev-config*
+
 # dependencies
 node_modules/
 

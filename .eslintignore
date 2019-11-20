@@ -6,4 +6,4 @@
 # !build/index.js
 
 # ignore all build files
-build/*
+dist/*

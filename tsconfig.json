@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "moduleResolution": "node",
+        // "module": "commonjs",
+        // "moduleResolution": "node",
         "newLine": "LF",
-        "outDir": "./build/",
+        "outDir": "dist",
         "target": "es5",
         "sourceMap": true,
         "declaration": true,
