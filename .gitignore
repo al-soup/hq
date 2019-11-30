@@ -4,6 +4,11 @@
 /tmp
 /out-tsc
 
+#builds
+dist
+build
+
+#configs
 dev-config*
 
 # dependencies
