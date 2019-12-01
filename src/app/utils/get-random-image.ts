@@ -1,7 +1,7 @@
 import { unsplashKey } from '../config/dev-config';
 
 export default async function getRandomImage(): Promise<any> {
-  const url = 'https://api.unsplash.com/photos/random/';
+  const url = 'https://api.unsplash.com/photos/random?orientation=landscape';
   const opts = {
     method: 'get',
     headers: new Headers({

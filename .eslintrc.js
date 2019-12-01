@@ -19,10 +19,6 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": 0, // Allow explicit `any` tpye
 
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
-    "indent": [
-        "error",
-        2
-    ],
     "linebreak-style": [
         "error",
         "unix"
