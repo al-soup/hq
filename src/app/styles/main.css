@@ -2,11 +2,3 @@ body, html {
     height: 100%;
     margin: 0;
 }
-
-#background-img {
-    /*background-image: url('https://images.unsplash.com/photo-1572464699336-3c5d1d51078c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjEwMjY2NH0'); */
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}

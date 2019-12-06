@@ -2,9 +2,14 @@
     "name": "hq",
     "version": "1.0.0",
     "description": "Personal go-to website for when opening a new tab",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:al-soup/hq.git"
+    },
+    "private": true,
     "scripts": {
-        "start": "webpack",
-        "dev": "./node_modules/.bin/http-server ./build -a localhost -p 8080 -c-1",
+        "start": "webpack-dev-server  --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js",
         "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
     },
     "author": "al-soup",
@@ -16,14 +21,21 @@
         "eslint": "^6.6.0",
         "eslint-config-prettier": "^6.7.0",
         "eslint-plugin-prettier": "^3.1.1",
+        "file-loader": "^5.0.2",
+        "html-loader": "^0.5.5",
         "html-webpack-plugin": "^3.2.0",
-        "http-server": "^0.11.1",
+        "mini-css-extract-plugin": "^0.8.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
         "prettier": "^1.19.1",
         "style-loader": "^1.0.1",
         "ts-loader": "^6.2.1",
         "typescript": "^3.7.2",
         "webpack": "^4.41.2",
-        "webpack-cli": "^3.3.10"
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0",
+        "webpack-merge": "^4.2.2"
     },
-    "dependencies": {}
+    "dependencies": {
+        "clean-webpack-plugin": "^3.0.0"
+    }
 }
